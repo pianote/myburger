@@ -15,13 +15,20 @@
     padding-left: 0;
 } */
 
+.Button:disabled {
+    color: #ccc;
+    outline: 1px solid #ccc;
+    cursor: not-allowed;
+
+}
+
 .Success {
     color: #5C9210;
     outline: 1px solid #5C9210;
     text-align: center;
 }
 
-.Success:hover {
+.Success:hover:enabled {
     background-color: #5C9210;
     color: white;
     outline: 1px solid #5C9210;
@@ -34,7 +41,7 @@
     text-align: center;
 }
 
-.Danger:hover {
+.Danger:hover:enabled {
     background-color: #944317;
     color: white;
     outline: 1px solid #944317;
