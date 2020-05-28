@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Burger Builder App",
+  "name": "Build A Burger",
   "icons": [
     {
       "src": "favicon.ico",
